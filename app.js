@@ -71,7 +71,7 @@ const PROJECTS = {
     role: 'Full-Stack Developer',
     stack: 'Next.js · TypeScript · Tailwind CSS',
     year: '2024',
-    github: 'https://github.com',
+    github: 'https://github.com/IsacZ00/',
     live: 'https://gameonlinegbg.se',
     sections: [
       {
@@ -98,7 +98,7 @@ const PROJECTS = {
     role: 'Full-Stack Developer',
     stack: 'React · Firebase · TypeScript',
     year: '2024',
-    github: 'https://github.com',
+    github: 'https://github.com/IsacZ00/',
     live: null,
     sections: [
       {
@@ -125,7 +125,7 @@ const PROJECTS = {
     role: 'Mobile Developer',
     stack: 'React Native · Expo · Firebase',
     year: '2024',
-    github: 'https://github.com',
+    github: 'https://github.com/IsacZ00/',
     live: null,
     sections: [
       {
@@ -148,7 +148,7 @@ const PROJECTS = {
     role: 'Designer + Developer',
     stack: 'HTML · CSS · Vanilla JS',
     year: '2026',
-    github: 'https://github.com',
+    github: 'https://github.com/IsacZ00/',
     live: window.location.href,
     sections: [
       {
