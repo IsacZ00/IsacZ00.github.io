@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isac Zafar — Full-Stack Developer</title>
+  <meta name="description" content="Full-stack web developer specialising in React, Next.js, and TypeScript. Building clean, fast, user-focused products. Available for work." />
+  <meta property="og:title" content="Isac Zafar — Full-Stack Developer" />
+  <meta property="og:description" content="Full-stack developer building fast, accessible web experiences with React & Next.js." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts: Switzer (display) + Satoshi (body) + JetBrains Mono (code) -->
+  <link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700,800&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./base.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- ░░ SKIP LINK ░░ -->
+  <a href="#main-content" class="sr-only">Skip to main content</a>
+
+  <!-- ░░ HEADER ░░ -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <!-- Logo -->
+        <a href="#" class="logo" aria-label="Isac Zafar — home">
+          <svg class="logo-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <!-- IZ monogram — geometric, Swiss, precise -->
+            <rect x="6" y="6" width="8" height="20" fill="currentColor"/>
+            <polygon points="14,6 26,6 26,9 18,15.5 26,22 26,26 14,26 14,23 22,23 22,20 14,14.5 14,11 22,11 22,9 14,9" fill="currentColor"/>
+          </svg>
+          <span class="logo-name">Isac Zafar</span>
+        </a>
+
+        <!-- Nav -->
+        <nav class="site-nav" id="site-nav" role="navigation" aria-label="Main navigation">
+          <a href="#projects" class="nav-link">Work</a>
+          <a href="#playground" class="nav-link">Playground</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Actions -->
+        <div class="header-actions">
+          <a href="#contact" class="badge-available" aria-label="Available for work — contact me">
+            <span class="badge-dot" aria-hidden="true"></span>
+            Available for work
+          </a>
+          <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+          </button>
+          <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ░░ MAIN ░░ -->
+  <main id="main-content">
+
+    <!-- ── HERO ────────────────────────────────────── -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Left: Copy -->
+          <div class="hero-copy">
+            <p class="hero-eyebrow">Full-Stack Developer</p>
+            <h1 class="hero-title" id="hero-heading">
+              Building things<br>
+              that <em>work</em>.
+            </h1>
+            <p class="hero-desc">
+              I'm Isac — a full-stack developer based in Dublin,
+              specialising in React, Next.js, and TypeScript.
+              I care about clean code, fast interfaces, and products
+              that feel right to use.
+            </p>
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn-primary">
+                View my work
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#contact" class="btn-ghost">Get in touch</a>
+            </div>
+          </div>
+
+          <!-- Right: Tech card -->
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-card">
+              <p class="hero-card-label">Stack &amp; tools</p>
+              <div class="tech-grid">
+                <div class="tech-item">
+                  <div class="tech-icon">⚛️</div>
+                  <span class="tech-label">React</span>
+                </div>
+                <div class="tech-item">
+                  <div class="tech-icon">▲</div>
+                  <span class="tech-label">Next.js</span>
+                </div>
+                <div class="tech-item">
+                  <div class="tech-icon" style="font-family:var(--font-mono);font-size:16px;font-weight:700;color:var(--color-primary)">TS</div>
+                  <span class="tech-label">TypeScript</span>
+                </div>
+                <div class="tech-item">
+                  <div class="tech-icon">🔥</div>
+                  <span class="tech-label">Firebase</span>
+                </div>
+                <div class="tech-item">
+                  <div class="tech-icon" style="font-family:var(--font-mono);font-size:13px;font-weight:700;color:var(--color-primary)">TW</div>
+                  <span class="tech-label">Tailwind</span>
+                </div>
+                <div class="tech-item">
+                  <div class="tech-icon">📱</div>
+                  <span class="tech-label">React Native</span>
+                </div>
+              </div>
+              <div class="hero-stats">
+                <div>
+                  <div class="hero-stat-value">3+</div>
+                  <div class="hero-stat-label">Years dev</div>
+                </div>
+                <div>
+                  <div class="hero-stat-value">4</div>
+                  <div class="hero-stat-label">Projects</div>
+                </div>
+                <div>
+                  <div class="hero-stat-value">∞</div>
+                  <div class="hero-stat-label">Coffee</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ─────────────────────────────────── -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">Selected Work</p>
+          <h2 class="section-title" id="projects-heading">Projects</h2>
+          <p class="section-desc">A selection of things I've built — click any card to read the full case study.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: Internet Café -->
+          <article class="project-card fade-in" role="button" tabindex="0" data-project="gameonline" aria-label="Game Online Gbg — read case study">
+            <div class="project-thumb">
+              <div class="project-thumb-bg"></div>
+              <span style="position:relative;z-index:1">🎮</span>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Tailwind CSS</span>
+              </div>
+              <h3 class="project-title">Game Online Gbg</h3>
+              <p class="project-desc">
+                Full website for a Gothenburg internet café — booking system,
+                pricing pages, and a responsive UI built from the ground up in Next.js.
+              </p>
+              <span class="project-link">
+                Read case study
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </article>
+
+          <!-- Project 2: Personnel Management -->
+          <article class="project-card fade-in" role="button" tabindex="0" data-project="personnel" aria-label="Personnel Manager — read case study">
+            <div class="project-thumb">
+              <div class="project-thumb-bg"></div>
+              <span style="position:relative;z-index:1">👥</span>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">TypeScript</span>
+              </div>
+              <h3 class="project-title">Personnel Manager</h3>
+              <p class="project-desc">
+                A full-stack personnel management application with real-time
+                data, role-based access, and a clean admin dashboard built on Firebase.
+              </p>
+              <span class="project-link">
+                Read case study
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </article>
+
+          <!-- Project 3: React Native App -->
+          <article class="project-card fade-in" role="button" tabindex="0" data-project="mobile" aria-label="Mobile App — read case study">
+            <div class="project-thumb">
+              <div class="project-thumb-bg"></div>
+              <span style="position:relative;z-index:1">📱</span>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React Native</span>
+                <span class="tag">Expo</span>
+                <span class="tag">Firebase</span>
+              </div>
+              <h3 class="project-title">React Native App</h3>
+              <p class="project-desc">
+                Cross-platform mobile application for iOS and Android built with
+                React Native and Expo — real-time sync, native navigation, and polished UI.
+              </p>
+              <span class="project-link">
+                Read case study
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </article>
+
+          <!-- Project 4: This Portfolio -->
+          <article class="project-card fade-in" role="button" tabindex="0" data-project="portfolio" aria-label="This Portfolio — read case study">
+            <div class="project-thumb">
+              <div class="project-thumb-bg"></div>
+              <span style="position:relative;z-index:1">⚡</span>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <h3 class="project-title">This Portfolio</h3>
+              <p class="project-desc">
+                Minimal Swiss design system built from scratch — no frameworks,
+                no build tools. Dark mode, live code playground, and a
+                Lighthouse score above 95.
+              </p>
+              <span class="project-link">
+                Read case study
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PLAYGROUND ───────────────────────────────── -->
+    <section id="playground" aria-labelledby="playground-heading">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">Live Code</p>
+          <h2 class="section-title" id="playground-heading">Component Playground</h2>
+          <p class="section-desc">
+            Edit the code on the left — the preview updates in real time.
+            Pick a snippet or write your own.
+          </p>
+        </div>
+
+        <div class="playground-layout fade-in">
+
+          <!-- Editor -->
+          <div>
+            <div class="playground-tabs" role="tablist" aria-label="Code examples">
+              <button class="playground-tab active" role="tab" aria-selected="true" data-snippet="button">Button</button>
+              <button class="playground-tab" role="tab" aria-selected="false" data-snippet="card">Card</button>
+              <button class="playground-tab" role="tab" aria-selected="false" data-snippet="badge">Badge</button>
+              <button class="playground-tab" role="tab" aria-selected="false" data-snippet="custom">Custom</button>
+            </div>
+
+            <div class="code-editor">
+              <div class="code-editor-header">
+                <div class="code-editor-dots" aria-hidden="true">
+                  <div class="code-editor-dot" style="background:#ff5f56"></div>
+                  <div class="code-editor-dot" style="background:#ffbd2e"></div>
+                  <div class="code-editor-dot" style="background:#27c93f"></div>
+                </div>
+                <span class="code-editor-label">component.html</span>
+                <button class="code-run-btn" id="run-btn" aria-label="Run code">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5,3 19,12 5,21"/></svg>
+                  Run
+                </button>
+              </div>
+              <textarea
+                class="code-textarea"
+                id="code-input"
+                spellcheck="false"
+                aria-label="HTML code editor"
+                autocomplete="off"
+                autocorrect="off"
+              ></textarea>
+            </div>
+          </div>
+
+          <!-- Preview -->
+          <div>
+            <div class="preview-frame">
+              <div class="preview-header">
+                <div class="code-editor-dots" aria-hidden="true">
+                  <div class="code-editor-dot" style="background:#ff5f56"></div>
+                  <div class="code-editor-dot" style="background:#ffbd2e"></div>
+                  <div class="code-editor-dot" style="background:#27c93f"></div>
+                </div>
+                <span class="preview-label">Preview</span>
+              </div>
+              <div class="preview-content" id="preview-output" aria-live="polite" aria-label="Component preview">
+                <!-- rendered here -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ────────────────────────────────────── -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Avatar -->
+          <div class="fade-in">
+            <div class="about-avatar" aria-hidden="true">
+              <div class="about-avatar-bg"></div>
+              <span style="position:relative;z-index:1">👨‍💻</span>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="about-content fade-in">
+            <div>
+              <p class="section-label">About Me</p>
+              <h2 class="section-title" id="about-heading">Who I am</h2>
+            </div>
+
+            <p class="about-body">
+              I'm a full-stack developer based in Dublin, originally from Sweden.
+              I build web products end-to-end — from database to polished UI —
+              with a focus on performance, clean architecture, and interfaces that
+              actually feel good to use.
+            </p>
+            <p class="about-body">
+              I completed a full-stack development programme at Lexikon Utbildning
+              and have since shipped real-world projects including a client website,
+              a personnel management system, and a cross-platform mobile app. I'm
+              currently looking for my next role where I can keep building things
+              that matter.
+            </p>
+
+            <div>
+              <h3 class="section-label" style="margin-bottom:var(--space-5)">Skills</h3>
+              <div class="skills-grid">
+                <div>
+                  <p class="skill-group-title">Frontend</p>
+                  <div class="skill-tags">
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Next.js</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">HTML &amp; CSS</span>
+                  </div>
+                </div>
+                <div>
+                  <p class="skill-group-title">Backend &amp; Mobile</p>
+                  <div class="skill-tags">
+                    <span class="skill-tag">React Native</span>
+                    <span class="skill-tag">Firebase</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">REST APIs</span>
+                  </div>
+                </div>
+                <div>
+                  <p class="skill-group-title">Tooling</p>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Git &amp; GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Vercel</span>
+                    <span class="skill-tag">Figma</span>
+                  </div>
+                </div>
+                <div>
+                  <p class="skill-group-title">Currently learning</p>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Prisma</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">tRPC</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ──────────────────────────────────── -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-inner fade-in">
+          <p class="section-label" style="justify-content:center">Let's talk</p>
+          <h2 class="contact-title" id="contact-heading">Open to opportunities</h2>
+          <p class="contact-desc">
+            I'm actively looking for full-stack or frontend roles — remote,
+            hybrid, or on-site in Dublin. If you're building something interesting,
+            I'd love to hear about it.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:sabahchamoun98@gmail.com" class="contact-link primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              Send me an email
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-link secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-link secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">© 2026 Isac Zafar. Built with care.</p>
+        <div class="footer-links">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+          <a href="mailto:sabahchamoun98@gmail.com" class="footer-link">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ░░ CASE STUDY MODAL ░░ -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modal-close" aria-label="Close case study">✕</button>
+      <div id="modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
